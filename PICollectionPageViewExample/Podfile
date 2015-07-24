@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+workspace 'PICollectionPageView'
+
+xcodeproj 'PICollectionPageViewExample'
+platform :ios, '7.0'
+pod 'PICollectionPageView', :path => '../'
