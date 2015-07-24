@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Pham Quy" => "phamsyquybk@gmail.com" }
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/phamquy/PICollectionPageView.git" }
+  s.source       = { :git => "https://github.com/phamquy/PICollectionPageView.git" :tag => s.version}
   s.source_files = "PICollectionPageView/**/*.{h,m}"
 
   s.framework    = 'UIKit'
