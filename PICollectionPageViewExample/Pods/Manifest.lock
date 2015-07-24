@@ -1,0 +1,14 @@
+PODS:
+  - PICollectionPageView (0.0.1)
+
+DEPENDENCIES:
+  - PICollectionPageView (from `../`)
+
+EXTERNAL SOURCES:
+  PICollectionPageView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PICollectionPageView: faaf0d639bcd75f3987ed626f4b8c733ea247ab6
+
+COCOAPODS: 0.37.0.beta.1
