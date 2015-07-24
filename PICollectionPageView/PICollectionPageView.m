@@ -424,6 +424,13 @@ referenceSizeForHeaderInSection:(NSInteger)section
 
 }
 
+// The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSAssert(NO, @"This method is swizzled, if this is called, there must be something wrong");
+    return nil;
+}
+
 - (NSInteger) numberOfSectionsInCollectionView:(nonnull UICollectionView *)collectionView
 {
     return 1;
