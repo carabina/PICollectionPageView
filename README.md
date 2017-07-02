@@ -6,3 +6,4 @@ A UICollectionView base page view
 - UIStoryBoard compatible
 
 ![alt tag](https://raw.githubusercontent.com/phamquy/PICollectionPageView/master/screenshot.gif)
+Hello World
